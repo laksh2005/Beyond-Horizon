@@ -2,23 +2,12 @@ import Header from './Header';
 import Footer from './Footer';
 import { useEffect, useState } from 'react';
 import aboutImage from '../assets/about.webp';
-import gsap from 'gsap';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
-  }, []);
-
-  useEffect(() => {
-    gsap.from('.about-img', {
-      opacity: 0,
-      y: -50,
-      duration: 1.5,
-      ease: 'power3.out',
-      delay: 0.3,
-    });
   }, []);
 
   return (
