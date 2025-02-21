@@ -1,8 +1,15 @@
-
+import Header from './Header'
+import Footer from './Footer'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+    <Header />
+    <div>
+      Contact
+    </div>
+    <Footer />
+    </>
   )
 }
 

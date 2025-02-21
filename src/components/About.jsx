@@ -1,8 +1,15 @@
-
+import Header from './Header'
+import Footer from './Footer'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+    <Header />
+    <div>
+      About
+    </div>
+    <Footer />
+    </>
   )
 }
 

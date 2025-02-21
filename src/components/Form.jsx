@@ -1,7 +1,15 @@
+import Header from './Header'
+import Footer from './Footer'
 
 const Form = () => {
   return (
-    <div>Form</div>
+    <>
+    <Header />
+    <div>
+      Form
+    </div>
+    <Footer />
+    </>
   )
 }
 
